@@ -1,0 +1,96 @@
+p:nth-child(2){
+    color: purple;
+    font-size: 3vw;
+
+}
+  /* selecting by id */
+#chile{color: blue;
+
+
+ }
+ /* selecting by class */
+ .Edi{
+    color: darkolivegreen;
+    border: 2px solid blue;
+
+
+ }
+ .Didi{
+    color: darkorchid;
+    font-size: 2vw;
+
+
+ }
+ #paris{color: brown;
+    border:2px solid darkgoldenrod;
+
+
+}
+
+/* backgroung image css */
+.img{
+   width: 100%;
+   height: 50vh;
+   border: 3px groove blue;
+   background-image: url('../img/animal2.jpg');
+   background-repeat: no-repeat;
+   /* background-size: 50% 100%; */
+   background-position: right top;
+
+}
+/* vis css */
+.vid{
+   width: 400px;
+   height: fit content;
+
+
+
+}
+body{
+
+   background-color: aqua;
+}
+
+a{text-decoration: none;
+   font-size: 3vw;
+   background-color: blue;
+   padding: 1rem;
+   color: white;
+   /* border-radius: 8px; */
+   border-radius: 50px 20px 50px 20px;
+
+
+
+
+}
+
+
+
+
+
+
+
+/* other screen(tablets and andriod phones) styles */
+@media(max-width: 700px){
+   p{
+
+      color: chocolate;
+   }
+
+   html,body{
+      max-width: 100;
+      overflow: hidden;
+      background-color: darkkhaki;
+
+
+      font-size: calc(15% +5vh);
+
+   }
+
+}
+@media(max-width: 450px){
+   html,body{
+      background-color: darkolivegreen;
+      color: darkcyan;
+   }
+}
